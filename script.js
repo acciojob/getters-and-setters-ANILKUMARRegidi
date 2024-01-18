@@ -6,10 +6,14 @@ class Person(name,age) {
 get name(){
 	return this._name;
 }
-set age(value)
+set age(age)
 {
-	this._age = value;
+	this._age = age;
 }
+get age(){
+	return this._age;
+}
+
 class Student extends Person {
 	study()
 	{
